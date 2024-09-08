@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W-IT Consultancy & Services</title>
+    <link href="LandingPageStyle.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="icon" style="display: flex;">
+            <img src="../icons8-w-67.png" style="height: 70px; width: 70px;">
+            <ul class="list">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Process</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <button>Call Us</button>
+            </ul>
+
+        </div>
+        <div class="menu">
+            <div  onclick='myfun()'>
+            <img src="../icons8-menu-50.png"/>
+        </div>
+            <div>
+                <ul class="afterList">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Process</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <button>Call Us</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+            <div class="menuList">
+                Some people dream for success, we wake up and work hard for it!
+            </div>
+    </header>
+<hr>
+    <div class="content">
+        <div class="firstRow" style="width: 100%;">
+            <div class="image">
+                <img src="../ourexp.jpg" style="width: fit-content">
+            </div>
+            <div class="text" style="width: fit-content;">
+                <b>Our Services</b><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nesciunt? Adipisci numquam sit id delectus reprehenderit, ipsam ducimus vitae repellendus eligendi veritatis consequuntur quas sequi inventore illo, error debitis eaque animi. Ipsum quasi, ex quidem quae delectus nisi voluptatum laborum.
+            </div>
+        </div>
+        <div class="secRow" style="display: flex; margin-top: 50px; width: 100%;">
+            <div class="image">
+                <img src="../process.jpg" style="width: fit-content">
+            </div>
+            <div class="text" style="width: fit-content;">
+                <b>Our Process</b><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nesciunt? Adipisci numquam sit id delectus reprehenderit, ipsam ducimus vitae repellendus eligendi veritatis consequuntur quas sequi inventore illo, error debitis eaque animi. Ipsum quasi, ex quidem quae delectus nisi voluptatum laborum.
+            </div>
+        </div>
+    </div>
+<hr>
+    <div class="text" style="width: 100%;">
+        <b>Our Collaborations</b>
+    </div>
+    <div class="companies">
+        <div class="comp1">
+            <img src="../comp1.png">
+        </div>
+        <div class="comp1">
+            <img src="../comp4.png">
+        </div>
+        <div class="comp1">
+            <img src="../comp3.png">
+        </div>
+    </div>
+<hr>
+<div class="text" style="width: 100%;">
+    <b>Contact Us</b>
+</div>
+<div class="contactForm">
+    <form>
+        <input type="text" placeholder="First Name"  class="formElement"><br>
+        <input type="text" placeholder="Last Name" class="formElement"><br>
+        <input type="email" placeholder="Email" class="formElement"><br>
+        <input type="number" placeholder="Phone Number" class="formElement"><br>
+        <input type="button" class="formElement" value="Confirm" style="background-color: brown; color: white; cursor: pointer; font-weight: bold;">
+
+    </form>
+</div>
+<hr>
+<div class="text" style="width: 100%;">
+    <b>About Us</b>
+</div>
+<div class="aboutUs">
+    <div class="row" style="display: flex; align-items: center; justify-content: space-between; margin-top: 30px;">
+        <div class="col-4">
+            <img src="../icons8-w-67.png" style="width: 50px; height: 50px; margin-left: 30px;">
+            <div class="text" style="color: grey; font-weight: bold; font-family: 'Times New Roman', Times, serif; margin-left: 60px; margin-top: -30px; font-size: 14px;">INDIA<br>123 Maple Street,
+                Sector 15,
+                Gurgaon,
+                Haryana - 122018</div>
+        </div>
+        <div class="col-4" class="text" style="color: grey; font-weight: bold; font-family: 'Times New Roman', Times, serif;">
+            Follow Us On:<br>Instagram<br>LinkedIn<br>Facebook
+        </div>
+        <div class="col-4" class="text" style="color: grey; font-weight: bold; font-family: 'Times New Roman', Times, serif;">
+            About us:<br>
+            &copy;Since 2012<br>
+            For More Enquiry: +91 9876543210
+        </div>
+    </div>
+</div>
+
+<script>
+    function myfun(){
+        document.querySelector('.afterList').classList.toggle('showList')
+    }
+</script>
+    
+</body>
+</html>
